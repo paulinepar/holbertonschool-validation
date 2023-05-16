@@ -1,5 +1,5 @@
-module github.com/paulinepar/holbertonschool-validation.git/awesome-api
+module github.com/paulinepar/awesome-api
 
-go 1.13
+go 1.15
 
 require github.com/gorilla/mux v1.8.0 // indirect

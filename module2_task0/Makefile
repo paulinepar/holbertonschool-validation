@@ -1,8 +1,8 @@
-build: ## compile main
+build: ## compile the main in executable
 	go build
-run: ## run server
+run: ## launch the server
 	./awesome-api > ./awesome-api.log 2>&1 &
-stop: ## stop server
+stop: ## stop the server
 	pgrep awesome-api | xargs kill
 clean: ## clean the directory
 	rm awesome-api.log && rm awesome-api && make stop
