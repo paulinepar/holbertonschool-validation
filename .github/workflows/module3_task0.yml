@@ -3,7 +3,7 @@ name: module3_task0
 "on":
   push:
   schedule:
-    -cron: "5 6 * * *"
+    - cron: "5 6 * * *"
 
 jobs:
   build:
