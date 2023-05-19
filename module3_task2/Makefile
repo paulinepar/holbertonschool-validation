@@ -7,6 +7,8 @@ HUGO=hugo
 
 build:	## Generate the source code of the application to a binary.
 	go build
+	hugo > /dev/null 2>&1
+	make check
 
 run:	## Run the application in background by executing the binary.
 	./$(TARGET) >./$(TARGET).log 2>&1 &
