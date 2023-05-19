@@ -1,16 +1,20 @@
-# Deployment Document
+# Q&A
 
-- What is in the archive and how to unarchive it?
+## What is in the archive and how to unarchive it?
 
-- It is a compressed file that is the awesome-api binary and is 'dist directory'.
-- What are the commands to start and stop the application?
+- The directory compiled and the api server
+- to unzip it you have to `unzip awesome-website.zip`
 
-  - Use Hugo server, sintax type hugo server
+## What are the commands to start and stop the application?
 
-- How to customize where the application logs are written?
+- Use the make run command or `./awesome-api > ./awesome-api.log 2>&1 &`
 
-- awesome-api.log
+## How to customize where the application logs are written?
 
-- How to “quickly” verify that the application is running (healthcheck)?
+- None
 
-- Use the curl localhost:9999
+## How to “quickly” verify that the application is running (healthcheck)?
+
+- Do `curl localhost:9999/health`
+
+## Version / tag
